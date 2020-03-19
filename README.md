@@ -1,11 +1,11 @@
 # My Portfolio - 2020
 
-Codigo desenvolvido com o intuito de me apresentar profissionalmente
+Code developed in order to present myself professionally
 
-Linguagem utilizada: Javascript
+Language used: Javascript
 
-Tecnologia: ReactJs
+Technology: ReactJs
 
-Principais bibliotecas: Axios, entre outras ...
+Main libraries: Axios, and others ...
 
-Conteúdo: Application Front End made in Javascript and Api of github
+Content: Application Front End made in Javascript and Api of github
