@@ -1,12 +1,87 @@
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap";
+
+:root {
+	--color-green: #50fa7b;
+}
+
 * {
 	margin: 0;
 	padding: 0;
-	outline: 0;
-	box-sizing: border-box;
+	border: 0;
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	background: #fafafa;
-	color: #333;
+	background: #282a36;
+	font-family: 'Source Sans Pro', 'sans-serif';
+	color: white;
+}
+
+.wrapper {
+	text-align: center;
+	border-bottom: 1px solid #333;
+	padding: 32px;
+}
+
+.wrapper img {
+	border-radius: 50%;
+	border: 1px solid var(--color-green);
+	margin-bottom: 32px;
+	height: 250px;
+}
+		
+.wrapper h1 {
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: bold;
+}
+
+.wrapper h2 {
+	font-size: 24px;
+	font-height: 34px;
+	font-weight: normal;
+	margin-top: 8px;
+	opacity: 0.8;
+	color: var(--color-green);
+}
+
+.wrapper p {
+	max-width: 700px;
+	margin: 32px auto;
+	font-size: 24px;
+	line-height: 34px;
+}
+
+.wrapper p a {
+	color: var(--color-green);
+}
+
+.container {
+	margin: 32px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container h1 {
+	margin: 22px;
+	font-size: 42px;
+	line-height: 52px;
+	text-align: center;
+}
+
+.container div {
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #333;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	line-height: 34px;
+}
+
+.container div h1 {
+	color: var(--color-green);
 }
